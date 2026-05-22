@@ -2,7 +2,7 @@
 
 A compiler that translates programs written in a first-order expression language with Scheme syntax into frozen, differentiable PyTorch `nn.Module` objects. Compiled modules compute *exactly* -- they produce the same output as the source program to floating-point precision, with exact gradients via autograd, and can be embedded in hybrid architectures alongside trainable neural networks.
 
-**Paper:** [The Neural Compiler: Compiling Symbolic Programs into Differentiable Modules for Hybrid Scientific Machine Learning](https://arxiv.org/abs/XXXX.XXXXX)
+**Paper:** [The Neural Compiler: Program-to-Network Translation for Hybrid Scientific Machine Learning](https://arxiv.org/abs/2605.22498)
 
 ## Key Ideas
 
@@ -173,10 +173,10 @@ MIT
 ## Citation
 
 ```bibtex
-@article{sheneman2025neuralcompiler,
-  title={The Neural Compiler: Compiling Symbolic Programs into Differentiable Modules for Hybrid Scientific Machine Learning},
+@article{sheneman2026neuralcompiler,
+  title={The Neural Compiler: Program-to-Network Translation for Hybrid Scientific Machine Learning},
   author={Sheneman, Luke},
-  journal={arXiv preprint arXiv:XXXX.XXXXX},
-  year={2025}
+  journal={arXiv preprint arXiv:2605.22498},
+  year={2026}
 }
 ```
