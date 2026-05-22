@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "neural_compiler"
+version = "1.0.0"
+description = "Compiling Scheme into composable, differentiable neural network modules"
+license = {text = "MIT"}
+authors = [{name = "Luke Sheneman", email = "sheneman@uidaho.edu"}]
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.0",
+    "pytest>=7.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
